@@ -1,0 +1,122 @@
+[2014-06-19 12:13:40] core.ERROR: exception 'SmartyException' with message 'Unable to load template snippet 'widgets/error/service.tpl'' in /kunden/399154_22085/webseiten/shop/engine/Library/Smarty/sysplugins/smarty_internal_templatebase.php:127
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/View/Default.php(273): Smarty_Internal_TemplateBase->fetch()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(212): Enlight_View_Default->render(Object(Enlight_Template_Default))
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(238): Enlight_Controller_Plugins_ViewRenderer_Bootstrap->renderTemplate(Object(Enlight_Template_Default))
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(136): Enlight_Controller_Plugins_ViewRenderer_Bootstrap->render()
+#4 [internal function]: Enlight_Controller_Plugins_ViewRenderer_Bootstrap->onPostDispatch(Object(Enlight_Controller_ActionEventArgs))
+#5 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Event/Handler/Default.php(91): call_user_func(Array, Object(Enlight_Controller_ActionEventArgs))
+#6 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Event/EventManager.php(211): Enlight_Event_Handler_Default->execute(Object(Enlight_Controller_ActionEventArgs))
+#7 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(202): Enlight_Event_EventManager->notify('Enlight_Control...', Object(Enlight_Controller_ActionEventArgs))
+#8 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('serviceAction')
+#9 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#10 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#11 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#12 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#13 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#14 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(106): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#15 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#16 {main} [] {"uid":"3927a2d"}
+[2014-06-19 12:16:45] core.ERROR: exception 'SmartyException' with message 'Unable to load template snippet 'widgets/error/service.tpl'' in /kunden/399154_22085/webseiten/shop/engine/Library/Smarty/sysplugins/smarty_internal_templatebase.php:127
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/View/Default.php(273): Smarty_Internal_TemplateBase->fetch()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(212): Enlight_View_Default->render(Object(Enlight_Template_Default))
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(238): Enlight_Controller_Plugins_ViewRenderer_Bootstrap->renderTemplate(Object(Enlight_Template_Default))
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(136): Enlight_Controller_Plugins_ViewRenderer_Bootstrap->render()
+#4 [internal function]: Enlight_Controller_Plugins_ViewRenderer_Bootstrap->onPostDispatch(Object(Enlight_Controller_ActionEventArgs))
+#5 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Event/Handler/Default.php(91): call_user_func(Array, Object(Enlight_Controller_ActionEventArgs))
+#6 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Event/EventManager.php(211): Enlight_Event_Handler_Default->execute(Object(Enlight_Controller_ActionEventArgs))
+#7 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(202): Enlight_Event_EventManager->notify('Enlight_Control...', Object(Enlight_Controller_ActionEventArgs))
+#8 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('serviceAction')
+#9 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#10 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#11 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#12 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#13 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#14 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(106): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#15 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#16 {main} [] {"uid":"401fb40"}
+[2014-06-19 12:17:00] core.ERROR: exception 'SmartyException' with message 'Unable to load template snippet 'widgets/error/service.tpl'' in /kunden/399154_22085/webseiten/shop/engine/Library/Smarty/sysplugins/smarty_internal_templatebase.php:127
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/View/Default.php(273): Smarty_Internal_TemplateBase->fetch()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(212): Enlight_View_Default->render(Object(Enlight_Template_Default))
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(238): Enlight_Controller_Plugins_ViewRenderer_Bootstrap->renderTemplate(Object(Enlight_Template_Default))
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Plugins/ViewRenderer/Bootstrap.php(136): Enlight_Controller_Plugins_ViewRenderer_Bootstrap->render()
+#4 [internal function]: Enlight_Controller_Plugins_ViewRenderer_Bootstrap->onPostDispatch(Object(Enlight_Controller_ActionEventArgs))
+#5 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Event/Handler/Default.php(91): call_user_func(Array, Object(Enlight_Controller_ActionEventArgs))
+#6 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Event/EventManager.php(211): Enlight_Event_Handler_Default->execute(Object(Enlight_Controller_ActionEventArgs))
+#7 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(202): Enlight_Event_EventManager->notify('Enlight_Control...', Object(Enlight_Controller_ActionEventArgs))
+#8 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('serviceAction')
+#9 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#10 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#11 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#12 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#13 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#14 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(106): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#15 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#16 {main} [] {"uid":"314c12e"}
+[2014-06-19 15:14:23] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1001): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"b1b8e9d"}
+[2014-06-19 15:15:10] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1001): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"5997b35"}
+[2014-06-19 15:16:28] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1001): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"7a6c1b6"}
+[2014-06-19 15:24:59] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1001): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"b80de4e"}
+[2014-06-19 18:09:47] core.ERROR: exception 'Doctrine\ORM\NoResultException' with message 'No result was found for query although at least one row was expected.' in /kunden/399154_22085/webseiten/shop/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php:649
+Stack trace:
+#0 /kunden/399154_22085/webseiten/shop/engine/Shopware/Controllers/Backend/MediaManager.php(1001): Doctrine\ORM\AbstractQuery->getSingleResult()
+#1 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Action.php(159): Shopware_Controllers_Backend_MediaManager->createThumbnailsAction()
+#2 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Dispatcher/Default.php(528): Enlight_Controller_Action->dispatch('createThumbnail...')
+#3 /kunden/399154_22085/webseiten/shop/engine/Library/Enlight/Controller/Front.php(228): Enlight_Controller_Dispatcher_Default->dispatch(Object(Enlight_Controller_Request_RequestHttp), Object(Enlight_Controller_Response_ResponseHttp))
+#4 /kunden/399154_22085/webseiten/shop/engine/Shopware/Kernel.php(141): Enlight_Controller_Front->dispatch()
+#5 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(473): Shopware\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(256): Symfony\Component\HttpKernel\HttpCache\HttpCache->forward(Object(Symfony\Component\HttpFoundation\Request), true, NULL)
+#7 /kunden/399154_22085/webseiten/shop/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpCache/HttpCache.php(244): Shopware\Components\HttpCache\AppCache->forward(Object(Symfony\Component\HttpFoundation\Request), true)
+#8 /kunden/399154_22085/webseiten/shop/engine/Shopware/Components/HttpCache/AppCache.php(102): Symfony\Component\HttpKernel\HttpCache\HttpCache->pass(Object(Symfony\Component\HttpFoundation\Request), true)
+#9 /kunden/399154_22085/webseiten/shop/shopware.php(91): Shopware\Components\HttpCache\AppCache->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 {main} [] {"uid":"6c911b1"}

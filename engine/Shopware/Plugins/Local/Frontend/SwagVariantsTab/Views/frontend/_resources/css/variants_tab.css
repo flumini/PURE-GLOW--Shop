@@ -1,0 +1,27 @@
+.variants_tab {
+    height: 100%;
+    margin-bottom:40px;
+}
+ 
+.variant_box {
+    text-align:center;
+    padding:10px;
+    float:left;
+    width: 156px;
+    height: 120px;
+}
+ 
+.pointer {
+    cursor: pointer;
+}
+ 
+.variant_box p.selected  {
+    font-weight: bold;
+}
+.paging_wrapper {
+    text-align: center;
+    font-weight: bold;
+    width: 560px;
+    position: absolute;
+    bottom: 20px;
+}
